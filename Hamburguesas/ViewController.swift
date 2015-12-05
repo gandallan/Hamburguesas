@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var pais: UILabel!
+    
+    @IBOutlet weak var nombreHamburguesa: UILabel!
+    
+    var paises = Datos.ColeccionDePaises()
+    var hamburguese = Datos.ColeccionDeHamburguesa()
+    var colores = Datos.ColeccionDeColores()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
+      
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +29,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func mostrarHamburguesa(sender: UIButton) {
+        
+        pais.text = paises.ObtenPais()
+        nombreHamburguesa.text = hamburguese.obtenHamburguesa()
+        
+        let colorAleatorio = colores.obtenColores()
+        view.backgroundColor = colorAleatorio
+        
+    }
 
 }
 

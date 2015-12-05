@@ -12,6 +12,7 @@
 		81EA083C1C12991500FE8577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EA083A1C12991500FE8577 /* Main.storyboard */; };
 		81EA083E1C12991500FE8577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EA083D1C12991500FE8577 /* Assets.xcassets */; };
 		81EA08411C12991500FE8577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EA083F1C12991500FE8577 /* LaunchScreen.storyboard */; };
+		81EA08491C129D5A00FE8577 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA08481C129D5A00FE8577 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		81EA083D1C12991500FE8577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EA08401C12991500FE8577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81EA08421C12991500FE8577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EA08481C129D5A00FE8577 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				81EA08361C12991500FE8577 /* AppDelegate.swift */,
 				81EA08381C12991500FE8577 /* ViewController.swift */,
+				81EA08481C129D5A00FE8577 /* Datos.swift */,
 				81EA083A1C12991500FE8577 /* Main.storyboard */,
 				81EA083D1C12991500FE8577 /* Assets.xcassets */,
 				81EA083F1C12991500FE8577 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				81EA08391C12991500FE8577 /* ViewController.swift in Sources */,
 				81EA08371C12991500FE8577 /* AppDelegate.swift in Sources */,
+				81EA08491C129D5A00FE8577 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Trenx.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -265,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Trenx.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -287,6 +293,7 @@
 				81EA08471C12991500FE8577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
